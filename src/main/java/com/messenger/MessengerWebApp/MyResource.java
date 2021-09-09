@@ -8,6 +8,7 @@ import javax.ws.rs.core.MediaType;
 @Path("myresource")
 public class MyResource {
 
+    //My Resource
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String getIt() {
